@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/me/main",
+   "pages/books/main",
+   "pages/comments/main",
+   "pages/detail/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#EA5149",
+    "navigationBarTitleText": "第二个mpvue",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5149",
+    "list": [
+      {
+      "pagePath": "pages/books/main",
+      "text": "图书",
+      "iconPath":"img/book.png",
+      "selectedIconPath":"img/book-active.png"
+    }, {
+      "pagePath": "pages/comments/main",
+      "text": "评论",
+      "iconPath":"img/book.png",
+      "selectedIconPath":"img/book-active.png"
+    },
+    {
+      "pagePath": "pages/me/main",
+      "text": "我",
+      "iconPath":"img/me.png",
+      "selectedIconPath":"img/me-active.png"
+    }
+  ]
+  }
+}
